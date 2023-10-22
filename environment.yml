@@ -3,4 +3,5 @@ channels:
   - defaults
 dependencies:
   - pip
+  - jupyterlab
 prefix: /home/tobalearn/anaconda3/envs/algorithm-python

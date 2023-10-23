@@ -16,5 +16,5 @@ if __name__ == '__main__':
     adj_list[0] = [1, 2]
     adj_list[1] = [3, 4]
     adj_list[4] = [0]
-    print("dfs() output: ")
+    print("bfs() output: ")
     bfs(adj_list, visited, 0)

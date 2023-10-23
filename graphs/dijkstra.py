@@ -31,7 +31,7 @@ if __name__ == '__main__':
     adj_list[0] = [(1, 3), (2, 12)]
     adj_list[1] = [(3, 2), (4, 4)]
     adj_list[4] = [(0, 12)]
-    print("dfs() output: ")
+    print("dijkstra() output: ")
     # test_priority_queue()
     dist = dijkstra(adj_list, 0)
     for dist_i in range(len(dist)):
